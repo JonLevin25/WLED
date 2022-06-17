@@ -31,6 +31,13 @@
 #define PALETTE_SOLID_WRAP (paletteBlend == 1 || paletteBlend == 3)
 
 /*
+ * TEST - copied from mode_blink_rainbow
+ */
+uint16_t WS2812FX::mode_custom_TEST(void) {
+  return blink(color_wheel(SEGENV.call & 0xFF), SEGCOLOR(1), false, false);
+}
+
+/*
  * No blinking. Just plain old static light.
  */
 uint16_t WS2812FX::mode_static(void) {
@@ -174,7 +181,6 @@ uint16_t WS2812FX::mode_color_wipe(void) {
 uint16_t WS2812FX::mode_color_sweep(void) {
   return color_wipe(true, false);
 }
-
 
 /*
  * Turns all LEDs after each other to a random color.

@@ -1,0 +1,63 @@
+entry 0x4008067c
+---WLED 0.13.2-a0 2203191 INIT---
+esp32 v3.3.6-16-gcc5440f6a2
+heap 295412
+PIN ALLOC: Pin 1 allocated by 0x89 (137)
+PIN ALLOC: Pin 2 allocated by 0x8a (138)
+Registering usermods ...
+Reading config
+Reading settings from /wsec.json...
+JSON buffer released. (3)
+Reading settings from /cfg.json...
+Removing all.
+PIN ALLOC: Pin 14 allocated by 0x82 (130)
+Successfully inited strip 0 (len 10) with type 22 and pins 14,255 (itype 17)
+PIN ALLOC: Pin 33 allocated by 0x82 (130)
+Successfully inited strip 1 (len 10) with type 22 and pins 33,255 (itype 17)
+PIN ALLOC: Pin 0 allocated by 0x85 (133)
+Starting usermod config.
+JSON buffer released. (1)
+Initializing strip
+Usermods setup
+Access point disabled.
+Connecting to SSID...
+
+Connected! IP address: 192.168.1.115
+Init STA interfaces
+mDNS started
+WiFiUDP.endPacket returned an error
+WiFiUDP.endPacket returned an error
+...
+WiFiUDP.endPacket returned an error
+---DEBUG INFO---
+Runtime: 30006
+Unix time: 30,006
+Free heap: 206636
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.115
+Loops/sec: 0
+Max UM time[ms]: 0
+---DEBUG INFO---
+Runtime: 30050
+Unix time: 30,050
+Free heap: 206872
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.115
+Loops/sec: 0
+Max UM time[ms]: 0
+---DEBUG INFO---
+Runtime: 30093
+Unix time: 30,093
+Free heap: 206872
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.115
+Loops/sec: 0
+Max UM time[ms]: 0
+---DEBUG INFO---
+...

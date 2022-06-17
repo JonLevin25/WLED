@@ -1,4 +1,10 @@
 #define WLED_DEFINE_GLOBAL_VARS //only in one source file, wled.cpp!
+
+// #ifdef ARDUHAL_LOG_LEVEL
+// #undef ARDUHAL_LOG_LEVEL
+// #define ARDUHAL_LOG_LEVEL ARDUHAL_LOG_LEVEL_ERROR
+// #endif
+
 #include "wled.h"
 #include "wled_ethernet.h"
 #include <Arduino.h>
